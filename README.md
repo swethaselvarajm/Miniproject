@@ -1,58 +1,86 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## ANALYSIS OF CRIME AGAINST INDIAN WOMEN BY TIME SERIES AND MACHINE LEARNING ALGORITHMS 
 
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+The upsurge of crimes against women is one of the top problems confronting each country nowadays. We witness all day long a huge number of cases of assault on women. Analyzing crime trends and significant hidden relationships between crimes can be aided by studying historical crime data. So, it is feasible to simulate a crime prediction model that considers verifiable historical crime information in order to predict future criminal behaviour. Time series research has recently received much more attention. In particular, developing useful and hidden information from trends in multivariate time series has been the focus of this problem in many applied industries such as environmental sciences, agriculture, business and finance.This paper details the implementation of time series algorithm in the prediction of and inference from patterns that repeat frequently across a dataset to derive useful hidden information.
 
 ## Features
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- Holt-Winters Exponential Smoothing Algorithm
+- Random Forest Regression Algorithm.
+- MinMax Scaler.
+- Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+* Python Environment:
+  - Python 3.8 or newer
+  - Jupyter Notebook or JupyterLab
+* Integrated Development Environment (IDE):`
+  - Visual Studio Code or PyCharm
+* Processor( Intel Core i7 or AMD Ryzen 7 )
+* Graphics Processing Unit (NVIDIA GTX 1650 or higher)
+* Operating System:Windows 10/11, macOS, or Linux (Ubuntu is popular for data science).
+* SSD (Solid State Drive) with at least 256 GB capacity
+
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![architecture diag](https://github.com/user-attachments/assets/0d066d4e-d1a2-455b-b390-79ba39c3da46)
+
 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Historical vs Forecast data for the next 10 years
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![image](https://github.com/user-attachments/assets/0471cb99-c1f9-44e4-b69a-da904344cd13)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+#### Output2 - Forecast for next 10 years
+![Screenshot 2024-11-25 215443](https://github.com/user-attachments/assets/eb3970df-a651-45ea-9e3f-714066b89690)
 
+![Screenshot 2024-11-25 215500](https://github.com/user-attachments/assets/6369d73a-5af7-454d-afa7-8f81a7256712)
+
+![Screenshot 2024-11-25 215512](https://github.com/user-attachments/assets/50786572-2ab2-4d1a-b232-bfa811e5341f)
+
+![Screenshot 2024-11-25 215529](https://github.com/user-attachments/assets/86c74aeb-27a5-4dc5-a474-e5924da19850)
+
+![Screenshot 2024-11-25 215543](https://github.com/user-attachments/assets/4afff36d-5625-4639-a7d8-d936288836b8)
+
+![Screenshot 2024-11-25 215556](https://github.com/user-attachments/assets/ed9f36b4-8a3b-46e5-b9bc-9edee660d9d2)
+
+![Screenshot 2024-11-25 215625](https://github.com/user-attachments/assets/2b40fdba-4ba7-444e-ba31-16210d720b16)
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+The code successfully analyzes crime data, providing insights into the distribution and prevalence of various crimes against women across states.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The Random Forest model demonstrates high accuracy, showing its potential to predict crime rates based on historical data and influencing factors.
+
+This project provides a solid foundation for deeper analysis, which can be expanded with additional data and features for even more comprehensive insights.
+
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+[1]    A., D., Dileep., K., Ramalakshmi., R., Venkatesan., G., Naveen, Sundar., Golden, Nancy., S, Shirly. (2024). A Comparative Analysis of Machine Learning Algorithms for Crime Rate Prediction.  
+
+[2]  Anitha, Julian., Varshini, K. (2024). Analysis and Prediction of Crimes Against Women
+
+[3] Aparna, P., Lolayekar., S., Desouza., Pranab, Mukhopadhyay. (2020). Crimes Against Women in India: A District-Level Analysis (1991-2011). Journal of Interpersonal Violence.
+
+[4]      (2023). Crime Prediction Using Machine Learning and Deep Learning: A Systematic Review and Future Directions. IEEE Access,
+
+[5]     Sheshang, Degadwala., Dhairya, R., Vyas., Akash, Rajeshkumar, Raval., Mukesh, Soni. (2023). Crime Pattern Analysis and Prediction Using Regression Models.  
+
+[6]     Segura-Hernández, Angel., D., Narmadha, Naveen., D., Naveen, Sundhar., Kovuru, Lourd, Victoria. (2024). Efficient Machine Learning Approach for Crime Detection .
+
+[7]     Motwani, M., Purwar, P., Mathur, R., & Jamshed, A. (n.d.). An efficient approach towards crimes against women using time series algorithms.
+
+[8]     Delima, A. J. P. (2019). Applying Data Mining Techniques in Predicting Index and non-Index Crimes. International Journal of Machine Learning and Computing, 9(4), 533-538
+
+[9]     S Vijayarani, E Suganya, & C Navya. (n.d.). Crime analysis and prediction using enhanced ARIMA model.
 
 
 
